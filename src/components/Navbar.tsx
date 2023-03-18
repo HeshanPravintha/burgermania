@@ -20,6 +20,7 @@ const Navbar = () => {
           <BsSearch className="navbar-cart-icon" />
         </a> */}
         <button className="primary-button">Sign up</button>
+        <button className="primary-button">Login</button>
         {/* <button className="primary-button">Login</button> */}
       </div>
     </nav>
