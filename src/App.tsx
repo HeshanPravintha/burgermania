@@ -1,10 +1,9 @@
-import "./App.css";
-import Home from "./components/Home";
+import React from 'react';
+import Home from './components/Home'
 
-
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
+    <div>
       <Home />
     </div>
   );

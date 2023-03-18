@@ -1,28 +1,15 @@
-import React from "react";
-import Navbar from "./Navbar";
+import React from 'react';
+import NavBarButton from './NavBarButton/NavBarButton';
 
-const Home = () => {
+const Home: React.FC = () => {
+  const handleButtonClick = () => {
+    console.log('Button clicked!');
+  }
   return (
-    <div className="home-container">
-      <Navbar />
-      <div className="home-bannerImage-container">
-        <img src={require("../assets/background-image.png")} alt="" />
-      </div>
-      <div className="home-text-section">
-        <h1 className="primary-heading">
-          Your Favourite Food Delivered Hot & Fresh
-        </h1>
-        <p className="primary-text">
-          Healthy switcher chefs do all the prep work, like peeding, chopping &
-          marinating, so you can cook a fresh food.
-        </p>
-        <button className="secondary-button">Order Now </button>
-      </div>
-      <div className="home-image-section">
-        <img src={require("../assets/burger.png")} alt="" />
-      </div>
+    <div>
+       <NavBarButton label="Sign Up" onClick={handleButtonClick} />
     </div>
   );
-};
+}
 
 export default Home;
