@@ -1,6 +1,9 @@
 // import { BsSearch } from "react-icons/bs";
+import NavBarButton from "./NavBarButton/NavBarButton";
+import '../App.css'
 
 const Navbar = () => {
+  const handleButtonClick = () => console.log("Button clicked!");
   return (
     <nav>
       <div className="logo-container">
@@ -19,8 +22,7 @@ const Navbar = () => {
         {/* <a href="">
           <BsSearch className="navbar-cart-icon" />
         </a> */}
-        <button className="primary-button">Sign up</button>
-        <button className="primary-button">Login</button>
+        <NavBarButton label="Learn More" onClick={handleButtonClick} />
         {/* <button className="primary-button">Login</button> */}
       </div>
     </nav>
