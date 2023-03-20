@@ -22,7 +22,8 @@ const Navbar = () => {
         {/* <a href="">
           <BsSearch className="navbar-cart-icon" />
         </a> */}
-        <NavBarButton label="Learn More" onClick={handleButtonClick} />
+        <NavBarButton label="Login" onClick={handleButtonClick} />
+        <NavBarButton label="SignUp" onClick={handleButtonClick} />
         {/* <button className="primary-button">Login</button> */}
       </div>
     </nav>
