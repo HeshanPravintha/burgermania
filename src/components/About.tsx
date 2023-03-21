@@ -2,15 +2,15 @@ import React from 'react';
 import NavBarButton from './NavBarButton/NavBarButton';
 import Navbar from './Navbar';
 
-const Home: React.FC = () => {
+const About: React.FC = () => {
   const handleButtonClick = () => {
     console.log('Button clicked!');
   }
   return (
     <div>
-      <Navbar/>
+      <h1>About Us</h1>
     </div>
   );
 }
 
-export default Home;
+export default About;
