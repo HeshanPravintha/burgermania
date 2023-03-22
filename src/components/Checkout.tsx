@@ -8,7 +8,7 @@ const Checkout: React.FC = () => {
   }
   return (
     <div>
-      <h1>Checkout</h1>
+      <h1>Checkout Page</h1>
     </div>
   );
 }
