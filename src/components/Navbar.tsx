@@ -24,6 +24,7 @@ const Navbar = () => {
         </a> */}
         <NavBarButton label="Login" onClick={handleButtonClick} />
         <NavBarButton label="SignUp" onClick={handleButtonClick} />
+        <NavBarButton label="Order Now" onClick={handleButtonClick} />
         {/* <button className="primary-button">Login</button> */}
       </div>
     </nav>
