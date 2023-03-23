@@ -10,6 +10,7 @@ const Contact: React.FC = () => {
     <div>
       <h1>Contact Us</h1>
       <h1>Contact Us on Facebook</h1>
+      <h1>Contact Us on Instagram</h1>
     </div>
   );
 }
