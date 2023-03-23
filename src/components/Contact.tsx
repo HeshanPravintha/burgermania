@@ -9,6 +9,7 @@ const Contact: React.FC = () => {
   return (
     <div>
       <h1>Contact Us</h1>
+      <h1>Contact Us on Facebook</h1>
     </div>
   );
 }
