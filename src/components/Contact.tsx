@@ -11,6 +11,7 @@ const Contact: React.FC = () => {
       <h1>Contact Us</h1>
       <h1>Contact Us on Facebook</h1>
       <h1>Contact Us on Instagram</h1>
+      <h1>Contact Us on LinkedIn</h1>
     </div>
   );
 }
