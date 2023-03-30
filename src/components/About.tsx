@@ -9,6 +9,12 @@ const About: React.FC = () => {
   return (
     <div>
       <h1>About Us</h1>
+      <a href="">Home</a>
+        <a href="">About Us</a>
+        <a href="">Menu</a>
+        <a href="">Contact Us</a>
+        <a href="">Map</a>
+        <a href=""></a>
     </div>
   );
 }
