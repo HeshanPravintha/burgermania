@@ -8,7 +8,7 @@ const Cart: React.FC = () => {
   }
   return (
     <div>
-      <h1>Cart</h1>
+      <h1>Cart Page</h1>
       <h1>Details</h1>
       <a href="">About Us</a>
         <a href="">Menu</a>
