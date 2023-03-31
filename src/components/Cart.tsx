@@ -10,6 +10,11 @@ const Cart: React.FC = () => {
     <div>
       <h1>Cart</h1>
       <h1>Details</h1>
+      <a href="">About Us</a>
+        <a href="">Menu</a>
+        <a href="">Contact Us</a>
+        <a href="">Map</a>
+        <a href=""></a>
 
     </div>
   );
