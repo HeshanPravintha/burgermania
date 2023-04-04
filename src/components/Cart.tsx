@@ -13,7 +13,7 @@ const Cart: React.FC = () => {
       <a href="">About Us</a>
         <a href="">Menu</a>
         <a href="">Contact Us</a>
-        <a href="">Map</a>
+        <a href="">Maps</a>
         
         <a href="">Map</a>
 
