@@ -22,6 +22,8 @@ const Contact: React.FC = () => {
         <a href="">Menu</a>
         <a href="">Contact Us</a>
         <a href="">Map</a>
+        <a href="">About Us</a>
+
     </div>
   );
 }

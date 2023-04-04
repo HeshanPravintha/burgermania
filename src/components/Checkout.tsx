@@ -12,6 +12,9 @@ const Checkout: React.FC = () => {
       <h1>Details</h1>
       <a href="">Home</a>
         <a href="">About Us</a>
+        <a href="">About Us</a>
+        <a href="">About Us</a>
+
         <a href="">Menu</a>
         <a href="">Contact Us</a>
         <a href="">Map</a>
