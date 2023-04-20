@@ -9,13 +9,6 @@ const Cart: React.FC = () => {
   return (
     <div>
       <h1>Cart Page</h1>
-      <h1>Details</h1>
-      <a href="">About Us</a>
-        <a href="">Main Menu</a>
-        <a href="">Contact Us</a>
-        <a href="">Maps</a>
-        <a href="">Map</a>
-
     </div>
   );
 }
