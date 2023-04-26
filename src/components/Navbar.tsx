@@ -10,7 +10,7 @@ const Navbar = () => {
         <img src={require("../assets/logo.png")} alt="logo" />
       </div>
       <div className="navbar-phone-container">
-        <a href="">(+94) 77 777 7717</a>
+        <a href="">(+94) 777777717</a>
       </div>
 
       <div className="navbar-links-container">
