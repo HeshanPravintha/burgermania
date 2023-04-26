@@ -1,21 +1,21 @@
-import React from 'react';
-import NavBarButton from './NavBarButton/NavBarButton';
-import Navbar from './Navbar';
+import React from "react";
+import NavBarButton from "./NavBarButton/NavBarButton";
+import Navbar from "./Navbar";
 
 const About: React.FC = () => {
   const handleButtonClick = () => {
-    console.log('Button clicked!');
-  }
+    console.log("Button clicked!");
+  };
   return (
     <div>
       <h1>About Us</h1>
       <a href="">Home</a>
-        <a href="">About Us</a>
-        <a href="">Menu</a>
-        <a href="">Contact Us</a>
-        <a href=""></a>
+      <a href="">About Us</a>
+      <a href="">Menu</a>
+      <a href="">Contact Us</a>
+      <a href=""></a>
     </div>
   );
-}
+};
 
 export default About;
