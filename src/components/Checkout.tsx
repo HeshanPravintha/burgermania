@@ -1,17 +1,17 @@
-import React from 'react';
-import NavBarButton from './NavBarButton/NavBarButton';
-import Navbar from './Navbar';
+import React from "react";
+import NavBarButton from "./NavBarButton/NavBarButton";
+import Navbar from "./Navbar";
 
 const Checkout: React.FC = () => {
   const handleButtonClick = () => {
-    console.log('Button clicked!');
-  }
+    console.log("Button clicked!");
+  };
   return (
     <div>
       <h1>Checkout Page</h1>
       <h1>Details</h1>
     </div>
   );
-}
+};
 
 export default Checkout;
