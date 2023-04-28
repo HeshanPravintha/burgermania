@@ -1,6 +1,6 @@
 // import { BsSearch } from "react-icons/bs";
 import NavBarButton from "./NavBarButton/NavBarButton";
-import '../App.css'
+import "../App.css";
 
 const Navbar = () => {
   const handleButtonClick = () => console.log("Button clicked!");
