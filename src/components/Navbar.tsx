@@ -18,7 +18,6 @@ const Navbar = () => {
         <a href="">About Us</a>
         <a href="">Menu</a>
         <a href="">Contact Us</a>
-        <a href="">Information</a>
         <a href=""></a>
         {/* <a href="">
           <BsSearch className="navbar-cart-icon" />
