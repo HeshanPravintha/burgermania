@@ -12,7 +12,6 @@ const Navbar = () => {
       <div className="navbar-phone-container">
         <a href="">(+94) 777777717</a>
       </div>
-
       <div className="navbar-links-container">
         <a href="">Home</a>
         <a href="">About Us</a>
