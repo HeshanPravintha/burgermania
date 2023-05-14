@@ -13,6 +13,7 @@ const About: React.FC = () => {
       <a href="">About Us</a>
       <a href="">Menu</a>
       <a href="">Contact Us</a>
+      
     </div>
   );
 };
